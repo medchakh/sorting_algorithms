@@ -5,9 +5,9 @@
  * @list_n: The character to print
  * Return: Always 0 (Success)
  */
-void insertion_sort_list(lisint_t **list_n)
+void insertion_sort_list(list_t **list_n)
 {
-	lisint_t *curr, *tmp, *pre;
+	list_t *curr, *tmp, *pre;
 	int n;
 
 	if (!list_n || !*list_n || !(*list_n)->next)
